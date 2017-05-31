@@ -1,5 +1,5 @@
 User-agent: *
-Disallow: /blocks 
+
 Disallow: /concrete 
 Disallow: /config 
 Disallow: /controllers 

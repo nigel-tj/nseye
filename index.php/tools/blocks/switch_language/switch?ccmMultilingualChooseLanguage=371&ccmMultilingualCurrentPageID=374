@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<!--
+Project: M-Way Automotive website
+Author: Dejan Dujmovic - d.dujmovic@mwaysolutions.com
+Company: http://www.mwaysolutions.com/
+-->
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+  <title>M-Way Solutions Connected Vehicle :: English</title>
+  <meta name="description" content=""/>
+<meta name="generator" content="concrete5 - 5.6.3.1" />
+  <script type="text/javascript">
+    var CCM_DISPATCHER_FILENAME = '/index.php';var CCM_CID = 371;var CCM_EDIT_MODE = false;var CCM_ARRANGE_MODE = false;    var CCM_IMAGE_PATH = "/updates/concrete5.6.3.1_updater/concrete/images";
+    var CCM_TOOLS_PATH = "/index.php/tools/required";
+    var CCM_BASE_URL = "http://www.connectedvehicle.io";
+    var CCM_REL = "";
+
+  </script>
+
+<style type="text/css"> 
+#blockStyle1765SectionHomeContent80 {background-repeat:no-repeat; padding:6rem 0 6rem 0; } 
+#service5 {background-color:#000000; background-image: url('../../../../files/7214/0897/2995/mway-head-unit-integration.jpg'); background-repeat:no-repeat; } 
+#blockStyle1783SectionServicesContent95 {background-image: url('../../../../files/6514/0914/6458/m-way-solutions-automotive-fader.png'); background-repeat:no-repeat; } 
+#blockStyle1786SectionProductsContent97 {background-repeat:no-repeat; } 
+#blockStyle1791SectionServicesNarrowerContent99 {background-repeat:no-repeat; padding:5rem 0 5rem 0; } 
+#blockStyle1792SectionSolutionsContent100 {background-repeat:no-repeat; padding:6rem 0 6rem 0; } 
+#blockStyle1840SectionProductsContent101 {background-repeat:no-repeat; padding:2rem 0 2rem 0; } 
+#blockStyle1845SectionServicesNarrowerContent79 {background-repeat:no-repeat; padding:6rem 0 6rem 0; } 
+#blockStyle1846SectionProductsContent83 {background-repeat:no-repeat; padding:6rem 0 6rem 0; } 
+#blockStyle1847SectionSolutionsContent105 {background-repeat:no-repeat; } 
+#service1 {background-color:#000000; background-image: url('../../../../files/3414/0897/2034/mway-module-integration.jpg'); background-repeat:no-repeat; } 
+#service2 {background-color:#000000; background-image: url('../../../../files/2314/0897/2651/mway-service-provision.jpg'); background-repeat:no-repeat; } 
+#service3 {background-color:#000000; background-image: url('../../../../files/5814/0897/2754/mway-proxy-services.jpg'); background-repeat:no-repeat; } 
+#service4 {background-color:#000000; background-image: url('../../../../files/3114/0897/2874/mway-application-development.jpg'); background-repeat:no-repeat; } 
+#animateFooter {background-repeat:no-repeat; } 
+#blockStyle1900SectionProductsContent104 {background-repeat:no-repeat; padding:2rem 0 2rem 0; } 
+#automotiveSlider {background-repeat:no-repeat; } 
+#blockStyle1905SectionProductsContent102 {background-repeat:no-repeat; padding:2rem 0 2rem 0; } 
+#blockStyle1912SectionProductsContent103 {background-repeat:no-repeat; padding:2rem 0 2rem 0; } 
+</style>
+<link rel="stylesheet" type="text/css" href="http://www.connectedvehicle.io/updates/concrete5.6.3.1_updater/concrete/blocks/rss_displayer/view.css" />
+
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <style>
+    .preloaderContainer{
+      position: fixed;
+      z-index: 999999;
+      background: #000;
+      top: 0; right: 0; bottom: 0; left: 0;
+      visibility: visible;
+      opacity: 1;
+      transform: translateZ(0); /* force GPU rendering */
+      transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+      -webkit-transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+      -moz-transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+    }
+    .preloaderContainer.hidden{
+      visibility: hidden;
+      opacity: 0;
+    }
+    .preloaderContainer .logo{
+      background: url('../../../../files/8614/0905/3799/m-way-solutions-logo-1.svg') no-repeat;
+      background-size: contain;
+      width: 100px;
+      height: 80px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+    }
+
+    .spinner {
+      display: inline-block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      margin-top: 40px;
+    }
+
+    .spinner > div {
+      width: 4px;
+      height: 4px;
+      background-color: #fff;
+      opacity: 0.35;
+      margin: 0 4px;
+
+      border-radius: 100%;
+      display: inline-block;
+      -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+      animation: bouncedelay 1.4s infinite ease-in-out;
+      /* Prevent first frame from flickering when animation starts */
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+
+    .spinner .bounce1 {
+      -webkit-animation-delay: -0.32s;
+      animation-delay: -0.32s;
+    }
+
+    .spinner .bounce2 {
+      -webkit-animation-delay: -0.16s;
+      animation-delay: -0.16s;
+    }
+
+    @-webkit-keyframes bouncedelay {
+      0%, 80%, 100% { opacity: 0.35 }
+      40% { opacity: 1 }
+    }
+
+    @keyframes bouncedelay {
+      0%, 80%, 100% {
+        opacity: 0.35;
+      } 40% {
+          opacity: 1;
+        }
+    }
+  </style>
+  <link rel="icon" type="image/png" href="../../../../themes/automotive/images/favicons/favicon.ico">
+<!-- For non-Retina iPhone, iPod Touch, and Android 2.1+ devices: -->
+<link rel="apple-touch-icon-precomposed" href="http://www.connectedvehicle.io/en/apple-touch-icon-precomposed.png">
+<!-- For the iPad mini and the first- and second-generation iPad on iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../../../themes/automotive/images/favicons/apple-touch-icon-72x72-precomposed.png">
+<!-- For the iPad mini and the first- and second-generation iPad on iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="76x76" href="../../../../themes/automotive/images/favicons/apple-touch-icon-76x76-precomposed.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../../../themes/automotive/images/favicons/apple-touch-icon-114x114-precomposed.png">
+<!-- For iPhone with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="120x120" href="../../../../themes/automotive/images/favicons/apple-touch-icon-120x120-precomposed.png">
+<!-- For iPad with high-resolution Retina display running iOS ≤ 6: -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../../../themes/automotive/images/favicons/apple-touch-icon-144x144-precomposed.png">
+<!-- For iPad with high-resolution Retina display running iOS ≥ 7: -->
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../../../themes/automotive/images/favicons/apple-touch-icon-152x152-precomposed.png">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+  <link href='../../../../themes/automotive/prod/vendor.css' rel='stylesheet' type='text/css'>
+  <link href='../../../../themes/automotive/prod/main.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="en  page-371">
+<div class="preloaderContainer">
+  <div class="logo"></div>
+  <div class="spinner">
+    <div class="bounce1"></div>
+    <div class="bounce2"></div>
+    <div class="bounce3"></div>
+    <div class="bounce4"></div>
+  </div>
+</div>
+<header>
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="mobile-menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+
+      <div class="mobile-menu">
+        <ul>
+<li><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#home">Overview</a></li>
+<li><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#products">Products</a></li>
+<li><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#solutions">Solutions</a></li>
+<li><a href="http://blog.mwaysolutions.com/" target="_blank">Blog</a></li>
+<li><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#contact" target="_blank">Contact</a></li>
+</ul>
+        <div class="mobile-menu-language">
+          
+
+<div class="language_nav">
+    
+        <a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=371" class="elem_1 active">EN</a>
+
+
+    
+        <a href="switch?ccmMultilingualChooseLanguage=374&amp;ccmMultilingualCurrentPageID=371" class="elem_2 ">DE</a>
+
+
+    
+</div>        </div>
+      </div>
+    </div>
+  </div>
+</header><div class="indicators hide-for-medium-down">
+  
+<div id="HTMLBlock1843" class="HTMLBlock">
+<div class="indicator overview">
+    <div class="title">Overview</div>
+    <a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#home" class="bulletContainer">
+      <div class="bullet"></div>
+    </a>
+  </div>
+
+  <div class="indicator products">
+    <div class="title">Products</div>
+    <a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#products" class="bulletContainer">
+      <div class="bullet"></div>
+    </a>
+  </div>
+
+  <div class="indicator services">
+    <div class="title">Solutions</div>
+    <a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#solutions" class="bulletContainer">
+      <div class="bullet"></div>
+    </a>
+  </div>
+
+  <div class="indicator solutions">
+    <div class="title">Contact</div>
+    <a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#contact" class="bulletContainer">
+      <div class="bullet"></div>
+    </a>
+  </div></div></div><section id="home" class="content">
+  <div class="row">
+    <div class="small-12 columns">
+      
+  <section class="content main">
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1 columns">
+        <h1 id="animateHeadline" style="text-align: center;">Discover the world of automotive mobility services.<br />Welcome to Connected Vehicles.</h1>      </div>
+    </div>
+  </section>
+	<div id="automotiveSlider" class=" ccm-block-styles" >
+
+<ul class="orbit-content" data-orbit>
+      <li data-orbit-slide="headline-1">
+      <div>
+        <p><img src="../../../../files/5114/5431/9895/connected-vehicle-teaser.jpg" alt="connected-vehicle-teaser.jpg" width="1280" height="537" /></p>      </div>
+    </li>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </ul></div>
+  <section class="content main">
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1 columns">
+        <div class="small-12 medium-9 medium-offset-1">
+<h4 class="font-grey-light" style="text-align: center;">M-Way Solutions is a supplier of automotive technology in the connected vehicle space offering OEMs solutions to interconnect vehicles throughout their product life cycle.</h4>
+</div>      </div>
+    </div>
+  </section>
+	<div id="blockStyle1765SectionHomeContent80" class=" ccm-block-styles" >
+<p><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#products"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../../files/5314/0897/8748/arrow-1.svg" alt="arrow.svg" width="40" height="40" /></a></p></div>    </div>
+  </div>
+</section>
+
+<section id="products" class="content">
+  <div class="row">
+    <div class="small-12 columns">
+      	<div id="blockStyle1786SectionProductsContent97" class=" ccm-block-styles" >
+
+  <section class="content main">
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1 columns">
+        <h2 style="text-align: center;">Our Connectivity Products Value Chain –<br /> Full Mobility Services</h2>      </div>
+    </div>
+  </section>
+</div><p><img src="../../../../files/5714/5432/0304/connected-vehicle-headunit.png" alt="connected-vehicle-headunit.png" width="1280" height="594" /></p>
+  <section class="content main">
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1 columns">
+        <div class="small-12 medium-9 medium-offset-1">
+<h4 class="font-grey-light" style="text-align: center;">M-Way Solutions is positioned as a full service provider for the automotive industry from prototyping to deployment of product and service solutions.</h4>
+</div>      </div>
+    </div>
+  </section>
+	<div id="blockStyle1840SectionProductsContent101" class=" ccm-block-styles" >
+<div class="row">
+<div class="small-12 medium-5 columns">
+<p class="show-for-small-only"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../../files/6214/0896/1006/mway-automotive-platform.png" alt="mway-automotive-platform.png" width="515" height="518" /></p>
+<p> </p>
+<div id="product1" class="small-12 medium-10 medium-offset-2 productAnimation">
+<div class="show-for-xlarge-up">
+<p> </p>
+<p> </p>
+</div>
+<h3>Automotive Mobility Platform –<br /> <span class="font-blue-dark">Unlock Data and Services</span></h3>
+<p class="font-grey">The mCAP Automotive tool is the backbone of M-Way Solutions' connected services. It allows the use of comprehensive and platform-independent services for the implementation of the latest automotive and cloud solutions. In addition to the proxy services, automotive contents can be aggregated, processed, and distributed via the mCAP tool.</p>
+<p class="font-grey">Further functions include the transcoding and aggregation of content, the delivery of applications to vehicles, push messages, messaging and vehicle and end device management, among other services.</p>
+<p><a class="button" href="http://www.mobility-platform.com/" target="_blank">Discover why mcap</a></p>
+</div>
+</div>
+<div class="small-12 medium-7 columns">
+<p class="hide-for-small-only"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../../files/6214/0896/1006/mway-automotive-platform.png" alt="mway-automotive-platform.png" width="515" height="518" /></p>
+</div>
+</div></div>	<div id="blockStyle1905SectionProductsContent102" class=" ccm-block-styles" >
+<div class="row">
+<div class="small-12 medium-7 columns">
+<p><img src="../../../../files/4314/5432/0361/connected-vehicle-app-store.png" alt="connected-vehicle-app-store.png" width="747" height="504" /></p>
+</div>
+<div id="product2" class="small-12 medium-5 columns productAnimation">
+<div class="small-12 medium-10">
+<div class="show-for-xlarge-up">
+<p> </p>
+<p> </p>
+</div>
+<h3>Automotive App Store –<br /> <span class="font-blue-dark">Mobile Application Management</span></h3>
+<p class="font-grey">The automotive app store has opened the door for the use of apps in vehicles. Apps are installed and constantly updated via OTA technology on the head unit of the vehicle. Control and safety mechanisms prevent undesired user behavior.</p>
+<p class="font-grey">The internal automotive app store by M-Way Solutions allows the fast and reliable distribution of apps to specific head units and mobile devices, independent from a third party supplier. The control and safety mechanisms prevent undesirable user behavior and offer protection from abuse by unauthorized users.</p>
+<p><a class="button" href="http://www.relution.io/" target="_blank">Discover Relution</a></p>
+</div>
+</div>
+</div></div>	<div id="blockStyle1912SectionProductsContent103" class=" ccm-block-styles" >
+<div class="row">
+<div class="small-12 medium-5 columns">
+<p class="show-for-small-only"> </p>
+<p> </p>
+<div id="product3" class="small-12 medium-10 medium-offset-2 productAnimation">
+<h3>Content Streaming –<br /> <span class="font-blue-dark">Browser in the Cloud</span></h3>
+<p class="font-grey">Developed and patented by M-Way Solutions, the browser in the cloud concept uses a format-independent rendering engine based on the X264 codec as well as a special communications protocol. In combination, they allow the long-term use of various Internet services and web contents without the need for upgrades in the vehicle.</p>
+<p class="font-grey">Browser in the cloud complies with all aspects of the required safety mechanisms. With this technology, all content is exclusively processed in the cloud. Therefore, there is no need for codes such as C++, Java or Javascript, or for downloads to be implemented locally on the client. Depending on a country's legislation, locally adjusted solutions are available.</p>
+<p><a class="button" href="http://www.browzr.io/" target="_blank">Discover Browzr</a></p>
+</div>
+</div>
+<div class="small-12 medium-7 columns">
+<p class="hide-for-small-only"><img src="../../../../files/3714/5494/7925/mway-automotive-content-browzr.png" alt="mway-automotive-content-browzr.png" width="564" height="467" /></p>
+</div>
+</div></div>	<div id="blockStyle1900SectionProductsContent104" class=" ccm-block-styles" >
+<div class="row">
+<div class="small-12 medium-7 columns">
+<p><img src="../../../../files/6014/5431/9110/mway-automotive-app-development-apps.png" alt="mway-automotive-app-development-apps.png" width="614" height="481" /></p>
+</div>
+<div id="product4" class="small-12 medium-5 columns productAnimation">
+<div class="small-12 medium-10">
+<h3>Automotive Apps –<br /> <span class="font-blue-dark">Mobile Apps Development</span></h3>
+<p class="font-grey">M-Way Solutions has extensive expertise in the development of intelligent solutions in the area of e-mobility and high-performance apps for head units. Automotive apps are specially created offers for OEMs with a focus on public transportation, car sharing solutions, head units, and mobile applications in vehicles.</p>
+<p class="font-grey">Relevant information at the right time – mobility apps for OEMs generate true added value for your vehicle users. M-Way Solutions develops high quality apps and web apps which are optimized for the head unit of the respective vehicle. The usability of the head unit apps is focused on the requirements and applications during driving.</p>
+<p><a class="button" href="http://www.relution.io/" target="_blank">Discover Relution</a></p>
+</div>
+</div>
+</div></div>	<div id="blockStyle1846SectionProductsContent83" class=" ccm-block-styles" >
+<p><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#solutions"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../../files/5314/0897/8748/arrow-1.svg" alt="arrow.svg" width="40" height="40" /></a></p></div>    </div>
+  </div>
+</section>
+
+<section id="solutions" class="content background-change">
+  <div class="row">
+    <div class="small-12 columns">
+      	<div id="blockStyle1791SectionServicesNarrowerContent99" class=" ccm-block-styles" >
+<h2 style="text-align: center;">Explore the fascinating possibilities of <br class="show-for-medium-up" />telematics and mobile technologies in your car</h2></div>	<div id="service1" class="display right-text ccm-block-styles" >
+<h3 class="font-blue-dark">Module Integration</h3>
+<p>M-Way Solutions flexibly adjusts its back-end technology to your existing infrastructure. The modular, OSGi-based expandability of mCAP Automotive allows us to provide you with a version tailored to your specific needs. For example, integrating the advertising und couponing platform QPAD into your system allows for a distribution of advertisement and coupons that's adapted to the environment and accordingly accurate.</p>
+<p>The mCAP Automotive tool applies flexible connectors that create links to your systems’ existing data sources (data banks, CRM or SAP systems) to utilize and accordingly enhance the existing user and vehicle data.</p></div>	<div id="service2" class="display left-text ccm-block-styles" >
+<h3 class="font-blue-dark">Service Provision</h3>
+<p>M-Way Solutions provides your end devices with a great variety of end-to-end services from all possible sources. Automotive telematics services or infotainment content from the cloud, your partners, or your own sources are processed, consolidated and optimized for their use on mobile end devices.</p>
+<p>The range of offers extends from individual customer support during the creation of services with in-house tools such as mCAP Automotive, HTML5 Builder, remote resource management systems, or automated web service connectors, up to the independent creation and maintenance of services.</p></div>	<div id="service3" class="display right-text ccm-block-styles" >
+<h3 class="font-blue-dark">Proxy Services</h3>
+<p>M-Way Automotive offers proxy technologies that are customized for providing content to mobile end devices of vehicles. The automotive web proxy adjusts Internet content to the browser of the head unit installed in the vehicle and optimizes the delivered content for minimum bandwidth usage. This improves the quality of images and scripts, filters out undesired advertising, or replaces proprietary Internet technologies such as Flash with HTML5 video, for example.</p>
+<p>In this way, content can be filtered or enhanced where needed. M-Way thus allows you to alter assembled content even after delivery without having to modify the vehicle interfaces.</p></div>	<div id="service4" class="display left-text ccm-block-styles" >
+<h3 class="font-blue-dark">Application Development</h3>
+<p>Based on many years of experience in the development of mobile applications, M-Way Automotive can offer its customers sophisticated applications specifically conceived for use in vehicles. HTML5 and JavaScript applications, as well as the in-house framework M-Project Automotive, turn web radio, messaging, and calendar, weather and news entries into unique experiences.</p>
+<p>Web-based or native app developments, such as navigation systems or platform- independent “Browser in the Cloud” clients, link intelligent vehicle applications with the outside world. The applications' flexible back-end connection allows M-Way Automotive to offer a host of useful services in vehicles and to make them accessible to end users. These sophisticated concepts and services make driving an adventure for your customers.</p></div>	<div id="service5" class="display right-text ccm-block-styles" >
+<h3 class="font-blue-dark">Head Unit Integration</h3>
+<p>M-Way Automotive integrates native or MPA applications into the existing device software stack. For optimized runtime behavior, M-Way Automotive supports you in the implementation of a browser environment that is adjusted to your needs, including the connection of this environment to the services provided by the head unit via a native bridge. Through the application of platform-independent technologies such as HTML5, JavaScript or Qt, all implementations remain open for quick porting to new platforms.</p>
+<p>In addition, M-Way Automotive supports you in the creation and integration of services for the head unit, e.g. to give you access to services in the vehicle via the mCAP automotive server software.</p></div>	<div id="blockStyle1845SectionServicesNarrowerContent79" class=" ccm-block-styles" >
+
+  <section class="content main">
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1 columns">
+        <p><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#contact"><img style="display: block; margin-left: auto; margin-right: auto;" src="../../../../files/5314/0897/8748/arrow-1.svg" alt="arrow.svg" width="40" height="40" /></a></p>      </div>
+    </div>
+  </section>
+</div>    </div>
+  </div>
+
+  <div class="row">
+    <div class="small-12 columns">
+      	<div id="blockStyle1783SectionServicesContent95" class="parallax ccm-block-styles" >
+</div>    </div>
+  </div>
+</section>
+
+<section id="contact" class="content">
+  <div class="row">
+    <div class="small-12 medium-10 medium-offset-1 columns">
+      	<div id="blockStyle1792SectionSolutionsContent100" class=" ccm-block-styles" >
+
+  <section class="content main">
+    <div class="row">
+      <div class="small-12 medium-10 medium-offset-1 columns">
+        <h2 style="text-align: center;">Get inspired by connected services. <br /> What can we do for you?</h2>      </div>
+    </div>
+  </section>
+</div>	<div id="animateFooter" class=" ccm-block-styles" >
+
+
+<div class="row">
+  <div class="small-12 medium-6 columns">
+          <div class="small-6 columns">
+<p><span class="font-white">GERMANY / Stuttgart</span><br />M-Way Solutions GmbH<br />Stresemanstrasse 79<br />D-70191 Stuttgart<br />Germany</p>
+</div>      </div>
+  <div class="small-12 medium-6 columns">
+          <div class="small-12 columns">
+<p><span class="font-white">VOLKER HAHN / CEO</span><br /><a href="mailto:v.hahn@mwaysolutions.com">v.hahn@mwaysolutions.com</a><br />+49 711 25254 60</p>
+<p><span class="font-white">Automotive Tier-1s and OEMs looking to develop innovative infotainment systems:</span><br /> <a href="mailto:sales@mwaysolutions.com">sales@mwaysolutions.com</a></p>
+<p><span class="font-white">New business ideas:</span><br /><a href="mailto:sales@mwaysolutions.com">sales@mwaysolutions.com</a></p>
+<p><span class="font-white">For investments in M-Way Solutions Connected Services:</span><br /><a href="mailto:automotive@mwaysolutions.com">automotive@mwaysolutions.com</a></p>
+<p><br /><span class="font-white">We aim to offer the best possible service. <br />Suggestions and comments are very important to us.</span></p>
+<p><span class="font-white">Service-Hotline:</span> +49 711 25254 60<br /><span class="font-white">Email:</span> <a href="mailto:info@mwaysolutions.com">info@mwaysolutions.com</a><br /><span class="font-white">Press: </span><a href="mailto: press@mwaysolutions.com">press@mwaysolutions.com</a></p>
+<p> </p>
+<p><a href="http://www.mwaysolutions.com/"><img class="small-center" src="../../../../files/8614/0905/3799/m-way-solutions-logo-1.svg" alt="m-way-solutions-logo-1.svg" /></a></p>
+<p> </p>
+</div>      </div>
+</div></div>	<div id="blockStyle1847SectionSolutionsContent105" class="footer ccm-block-styles" >
+<ul>
+<li><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#" data-reveal-id="modalPrivacy">Privacy Policy</a></li>
+<li><a href="switch?ccmMultilingualChooseLanguage=371&amp;ccmMultilingualCurrentPageID=374#" data-reveal-id="modalImprint">Imprint</a></li>
+<li><a href="http://www.mwaysolutions.com/" target="_blank">About us</a></li>
+<li><a href="mailto:info@mwaysolutions.com" target="_blank">info@mwaysolutions.com</a></li>
+</ul></div>
+<div id="HTMLBlock1889" class="HTMLBlock">
+<div id="modalImprint" class="reveal-modal" data-reveal>
+  <h2>M-Way Solutions GmbH</h2>
+<div class="row">
+<div class="small-12 medium-6 columns">
+            <p><b>Volker Hahn,&nbsp;</b><span>Managing director</span></p>
+            <p><b>Richard Malley,&nbsp;</b><span>Managing director</span></p>
+            <p>Stresemannstraße 79</p>
+            <p>70191 Stuttgart</p>
+            <p>Germany</p>
+</div>
+
+<div class="small-12 medium-6 columns">
+            <p>T: +49 (0) 711 25254 - 60</p>
+            <p>F: +49 (0) 711 25254 - 70</p><br>
+            <p>E:&nbsp;<a href="mailto:info@mwaysolutions.com">info@mwaysolutions.com</a></p>
+            <p>W:&nbsp;<a href="http://www.mwaysolutions.com/" target="_blank">www.mwaysolutions.com</a></p><br>
+            <p><b>Court of registration</b></p>
+            <p>Stuttgart HRB 25158</p>
+            <p>UST-ID: DE240271880</p>
+</div>
+</div>
+
+<div class="small-12">
+            <p><b>Copyright</b></p>
+            <p>The publications on these pages are subject to German copyright. Duplication, modification or any kind of use outside the scope allowed by copyright law require the express written permission of M-Way Solutions GmbH. </p><br>
+            <p><b>Content liability</b></p>
+            <p>The information on this website is for general and informative purposes. The content of these pages is created with the greatest possible care. We cannot assume liability for the completeness and topicality of any information contained herein.</p><br>
+            <p><b>Liability for links</b></p>
+            <p>External links included on this website lead to third-party content for which the respective third party alone is responsible.</p><br>
+            <p><b>Google Analytics</b></p>
+            <p>This website uses Google Analytics, a web analytics service provided by Google, Inc. ("Google"). Google Analytics uses "cookies", which are text files placed on your computer, to help the website analyze how users use the site. The information generated by the cookie about your use of the website (including your IP address) will be transmitted to and stored by Google on servers in the United States . Google will use this information for the purpose of evaluating your use of the website, compiling reports on website activity for website operators and providing other services relating to website activity and internet usage. Google may also transfer this information to third parties where required to do so by law, or where such third parties process the information on Google's behalf. Google will not associate your IP address with any other data held by Google. You may refuse the use of cookies by selecting the appropriate settings on your browser, however please note that if you do this you may not be able to use the full functionality of this website. By using this website, you consent to the processing of data about you by Google in the manner and for the purposes set out above.</p>
+  
+</div>
+  <a class="close-reveal-modal">&#215;</a>
+</div></div>
+<div id="HTMLBlock1817" class="HTMLBlock">
+<div id="modalPrivacy" class="reveal-modal" data-reveal>
+  <h2>M-Way Solutions GmbH</h2>
+<p><b>Privacy Policy</b></p>
+<p>Use of our website is usually possible without providing personal information. For our part, when personal data (such as name, address or email address) are collected, this is, as far as possible, on a voluntary basis. This data will not be shared with third parties without your express consent. You can always contact us in order to access or delete your data. We point out that data transmission over the Internet (for example, when communicating by email) may have security gaps. Complete protection of data against access by third parties is not possible. Data collection, processing and storage can be revoked at any time, with future effects.&nbsp;</p>
+
+<a class="close-reveal-modal">&#215;</a>
+</div></div>    </div>
+  </div>
+</section><script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-35175860-1']);
+  _gaq.push(['_setDomainName', 'connectedvehicle.io']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script src="../../../../themes/automotive/prod/vendor.min.js"></script>
+<script src="../../../../themes/automotive/prod/main.min.js"></script>
+</body>
+</html>

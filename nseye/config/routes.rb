@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
+  match '/tms' => 'home#tms', :via => :get
+  match '/ssi' => 'home#ssi', :via => :get 
+  match '/cdm' => 'home#cdm', :via => :get
+  match '/csr' => 'home#csr', :via => :get 
   # You can have the root of your site routed with "root"
    root 'home#index'
 

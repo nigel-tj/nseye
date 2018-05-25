@@ -4,7 +4,10 @@ Rails.application.routes.draw do
   match '/tms' => 'home#tms', :via => :get
   match '/ssi' => 'home#ssi', :via => :get 
   match '/cdm' => 'home#cdm', :via => :get
-  match '/csr' => 'home#csr', :via => :get 
+  match '/csr' => 'home#csr', :via => :get
+  match '/about' => 'home#about', :via => :get
+  match '/contact' => 'home#contact', :via => :get
+  match '/pillars' => 'home#pillars', :via => :get
   # You can have the root of your site routed with "root"
    root 'home#index'
 
